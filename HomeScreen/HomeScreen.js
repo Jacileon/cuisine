@@ -4,17 +4,16 @@ import { Ionicons } from '@expo/vector-icons';
 
 // Import de RecipeCategoriesScreen
 import RecipeCategoriesScreen from './Screen/RecipeCategoriesScreen';
-
 // Import des écrans associés
 import FavoritesScreen from './FavoritesScreen';
 import AddRecipeScreen from './AddRecipeScreen';
 import UserRecipesScreen from './UserRecipesScreen';
 import AccountScreen from './AccountScreen';
 
-// Création du navigateur d'onglets
+
 const Tab = createBottomTabNavigator();
 
-// Définition du composant HomeScreen avec la barre de navigation
+
 const HomeScreen = () => {
     return (
         <Tab.Navigator>

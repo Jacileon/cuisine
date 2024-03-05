@@ -8,7 +8,7 @@ const AccountScreen = () => {
     const [password, setPassword] = useState('');
 
     const handleLogin = () => {
-        // Vérifiez les informations d'identification, par exemple avec une API ou une base de données
+       
         if (username === 'utilisateur' && password === 'motdepasse') {
             setIsLoggedIn(true);
         } else {

@@ -5,38 +5,25 @@ import { useNavigation } from '@react-navigation/native'; // Importer le hook de
 const SauceScreen = () => {
   const navigation = useNavigation(); // Utiliser le hook de navigation
 
-  // Exemple de données de sauce avec des images
+
   const sauces = [
     { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
     { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
     { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    { id: 1, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
-    { id: 2, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
-    { id: 3, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
-    // Ajouter les autres sauces avec leurs images ici
+    { id: 4, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 5, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
+    { id: 6, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
+    { id: 7, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 8, name: 'Sauce tomate', image: require('./OIP (5).jpg') },
+    { id: 9, name: 'Sauce béchamel', image: require('./OIP (5).jpg') },
+    { id: 10, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 11, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 12, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 13, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 14, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
+    { id: 15, name: 'Sauce BBQ', image: require('./OIP (5).jpg') },
   ];
 
-  // Fonction de gestion du clic sur une sauce
-  const handleSaucePress = (sauceId) => {
-    console.log('Sauce selected:', sauceId);
-    // Naviguer vers un nouvel écran en passant l'identifiant de la sauce
-    navigation.navigate('SauceDetail', { sauceId });
-  };
 
   return (
     <View style={{ flex: 1, padding: 20 }}>

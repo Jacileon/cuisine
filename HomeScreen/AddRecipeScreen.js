@@ -8,12 +8,11 @@ const AddRecipeScreen = () => {
     const [instructions, setInstructions] = useState('');
 
     const handleAddRecipe = () => {
-        // Ajoutez la logique pour enregistrer la recette, par exemple avec une API ou une base de données
-        // Vous pouvez également valider les entrées de l'utilisateur avant de les enregistrer
+        
         if (recipeName && ingredients && instructions) {
             // Enregistrez la recette
             Alert.alert('Succès', 'Recette ajoutée avec succès!');
-            // Réinitialisez les champs après avoir ajouté la recette
+          
             setRecipeName('');
             setIngredients('');
             setInstructions('');

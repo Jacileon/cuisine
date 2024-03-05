@@ -6,7 +6,7 @@ const favoritesData = [
     { id: 1, name: 'Recette préférée 1' },
     { id: 2, name: 'Recette préférée 2' },
     { id: 3, name: 'Recette préférée 3' },
-    // Ajoutez d'autres recettes favorites selon vos besoins
+    
 ];
 
 const FavoritesScreen = () => {
